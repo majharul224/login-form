@@ -1,0 +1,40 @@
+/*------------------ 
+Nav style sheet 
+--------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 2em;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+/* --------------
+login form 
+------------------*/
+.login-containar{
+    display: flex;
+justify-content: center;
+
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input,button{
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.login-form button{
+    background-color: orange;
+    color: seashell;
+    font-weight: 700;
+    padding: 0;
+    margin: 0%;
+}
